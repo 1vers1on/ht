@@ -877,16 +877,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 179.07) (xy 62.23 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e82036c-5cb5-474c-962e-332d0ce51ffd")
-	)
-	(wire
-		(pts
 			(xy 52.07 31.75) (xy 53.34 31.75)
 		)
 		(stroke
@@ -945,6 +935,16 @@
 		)
 		(uuid "2d652e53-d804-4bc3-9cbc-bf2aeea2da4e")
 	)
+	(label "I2C_SCL"
+		(at 90.17 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "312918ee-d4dd-46e1-b036-672f4aaaf71c")
+	)
 	(label "I2C_SDA"
 		(at 106.68 26.67 180)
 		(effects
@@ -956,7 +956,7 @@
 		(uuid "3254587f-4e63-4d9a-a98e-e12b85006f7e")
 	)
 	(label "2V5"
-		(at 60.96 179.07 180)
+		(at 62.23 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -975,6 +975,26 @@
 		)
 		(uuid "65bacc5d-747f-4cce-9d1a-fc5a0728d20e")
 	)
+	(label "USB_D-"
+		(at 151.13 17.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75d1c55c-6f0a-41b7-aa75-0e32c280d86f")
+	)
+	(label "USB_D-"
+		(at 106.68 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "935c8291-8d97-471b-89a0-aebd7e6e1d0e")
+	)
 	(label "2V5"
 		(at 53.34 31.75 0)
 		(effects
@@ -985,6 +1005,26 @@
 		)
 		(uuid "95ba45cd-1b25-473f-8358-acfb9683ca7b")
 	)
+	(label "USB_D+"
+		(at 106.68 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f04b9f9-1fc3-421c-af15-5063236ef4ce")
+	)
+	(label "USB_D+"
+		(at 151.13 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7e10a04-d273-4b44-ab5a-5e1c6484f346")
+	)
 	(label "I2C_SCL"
 		(at 106.68 29.21 180)
 		(effects
@@ -994,6 +1034,16 @@
 			(justify right bottom)
 		)
 		(uuid "d7b24bb0-354e-4504-ac6c-32fdece8f14a")
+	)
+	(label "I2C_SDA"
+		(at 90.17 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da3c2dc4-1687-4b73-9e82-4c097fcf4678")
 	)
 	(label "1V25"
 		(at 29.21 30.48 0)
@@ -1586,6 +1636,52 @@
 		)
 	)
 	(sheet
+		(at 150.622 56.896)
+		(size 37.338 101.6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2e1dadd9-868e-470b-aabb-487e14f88aa5")
+		(property "Sheetname" "MCU"
+			(at 150.622 56.1844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 150.622 159.0806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ht_better"
+				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349"
+					(page "57")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 15.24 16.002)
 		(size 12.954 6.096)
 		(exclude_from_sim no)
@@ -1672,6 +1768,72 @@
 			(project "ht_better"
 				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 24.13)
+		(size 12.7 4.826)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "539cebaa-f89f-4e32-abed-203d16d2e6d5")
+		(property "Sheetname" "Fuel Gauge"
+			(at 77.47 23.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fuel_gauge.kicad_sch"
+			(at 77.47 29.5406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 90.17 27.94 0)
+			(uuid "d6b9f58e-adef-42b4-a30e-6822cc77185f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 90.17 25.4 0)
+			(uuid "a2f7e503-0617-40e3-99f5-c66b1d818bc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ht_better"
+				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349"
+					(page "55")
 				)
 			)
 		)
@@ -2259,6 +2421,52 @@
 		)
 	)
 	(sheet
+		(at 204.978 56.896)
+		(size 37.084 101.346)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7d41882d-0176-419a-87e2-f78eee2f944c")
+		(property "Sheetname" "Peripherals"
+			(at 204.978 56.1844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 204.978 158.8266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ht_better"
+				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349"
+					(page "58")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 39.37 27.432)
 		(size 12.7 8.89)
 		(exclude_from_sim no)
@@ -2310,6 +2518,72 @@
 			(project "ht_better"
 				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349"
 					(page "53")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 15.494)
+		(size 13.208 7.112)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fbdb0304-33c0-4b24-99e5-6b0dd4dc94e1")
+		(property "Sheetname" "USB Type C"
+			(at 151.13 14.7824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_c.kicad_sch"
+			(at 151.13 23.1906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 151.13 17.78 180)
+			(uuid "99a5191f-b232-42ee-885d-0aae45e1f1eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 151.13 20.32 180)
+			(uuid "2ff0690d-fbc0-4b21-bd10-f42d0f18c51f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ht_better"
+				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349"
+					(page "56")
 				)
 			)
 		)

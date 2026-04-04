@@ -632,7 +632,7 @@
         "uuid": "f8b7476c-07f9-4593-b1ba-2c61d2a9e349"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR538-540,R119-120,D8,C360-363",
     "variants": []
   },
   "sheets": [
@@ -851,6 +851,50 @@
     [
       "695d0f4d-b677-43e0-b993-a892a18a69db",
       "Battery Charger"
+    ],
+    [
+      "539cebaa-f89f-4e32-abed-203d16d2e6d5",
+      "Fuel Gauge"
+    ],
+    [
+      "fbdb0304-33c0-4b24-99e5-6b0dd4dc94e1",
+      "USB Type C"
+    ],
+    [
+      "2e1dadd9-868e-470b-aabb-487e14f88aa5",
+      "MCU"
+    ],
+    [
+      "7d41882d-0176-419a-87e2-f78eee2f944c",
+      "Peripherals"
+    ],
+    [
+      "33bdaaee-a62b-41db-a02e-03f9646fa142",
+      "Buttons"
+    ],
+    [
+      "bd5d51f0-92d5-4c34-9ac0-36d36c021def",
+      "Keypad"
+    ],
+    [
+      "992b10ba-15de-4e3d-85e0-e283dcbc153f",
+      "Rotary Encoder"
+    ],
+    [
+      "78229ab2-746c-40a7-a73e-01ca23fafdef",
+      "Volume Pot"
+    ],
+    [
+      "3450e580-bd74-46ff-a8cb-2539c8dfe699",
+      "Display"
+    ],
+    [
+      "34a9ad3c-055c-4b99-a1d1-7126d401cb12",
+      "Codec"
+    ],
+    [
+      "0fe0d94e-1534-412e-9981-f545fe3eef7f",
+      "Class D Speaker Amp"
     ]
   ],
   "text_variables": {},
