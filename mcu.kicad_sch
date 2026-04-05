@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260306)
+	(version 20260326)
 	(generator "eeschema")
-	(generator_version "10.0")
+	(generator_version "10.99")
 	(uuid "d820889d-83f3-4753-b53c-3ffd95bb205f")
 	(paper "A4")
 	(lib_symbols
@@ -4302,6 +4302,127 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 104.14 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d9f3550-0880-4fcb-ad21-18edf0257cb2")
 	)
 	(junction
 		(at 99.06 29.21)
@@ -4387,6 +4508,78 @@
 		(color 0 0 0 0)
 		(uuid "fca99178-c6a9-4b21-ba58-cff93d13b06d")
 	)
+	(no_connect
+		(at 73.66 107.95)
+		(uuid "0110ff72-cae2-4083-890c-0e79c4d41114")
+	)
+	(no_connect
+		(at 73.66 62.23)
+		(uuid "179243f8-bd52-4616-b27b-e4348103175f")
+	)
+	(no_connect
+		(at 73.66 97.79)
+		(uuid "209d8034-d424-4408-af1e-97bdf38e7721")
+	)
+	(no_connect
+		(at 73.66 64.77)
+		(uuid "3ec68edb-dfbe-40ae-b6fb-00dd3074d290")
+	)
+	(no_connect
+		(at 119.38 59.69)
+		(uuid "3f535fd1-39e8-4543-a1f0-d333b0388449")
+	)
+	(no_connect
+		(at 73.66 85.09)
+		(uuid "4a9c26f9-1491-4a44-9d93-b4b871a1fdab")
+	)
+	(no_connect
+		(at 119.38 62.23)
+		(uuid "60b39466-eb38-485b-9ba1-493f3005404d")
+	)
+	(no_connect
+		(at 119.38 130.81)
+		(uuid "8ab6cd19-a760-4935-8ed0-0233d9f3ff8a")
+	)
+	(no_connect
+		(at 119.38 133.35)
+		(uuid "8d0020ca-bb25-4295-8b6c-75be344606ee")
+	)
+	(no_connect
+		(at 73.66 82.55)
+		(uuid "931eae66-6440-47df-ba59-e67e387a324b")
+	)
+	(no_connect
+		(at 73.66 80.01)
+		(uuid "a4a033f2-0ac0-41be-940a-927f9a1706e2")
+	)
+	(no_connect
+		(at 119.38 57.15)
+		(uuid "b4b75b33-faee-48f5-9555-8c9d1991fdca")
+	)
+	(no_connect
+		(at 73.66 100.33)
+		(uuid "cbe895b9-bd91-4937-9874-e0e96dd5c660")
+	)
+	(no_connect
+		(at 73.66 87.63)
+		(uuid "ce60cdb8-96ba-431b-87e2-f98f01da2dfa")
+	)
+	(no_connect
+		(at 119.38 64.77)
+		(uuid "cfab58f0-5fd2-42b1-8b0c-6d4706af1c23")
+	)
+	(no_connect
+		(at 119.38 39.37)
+		(uuid "d48f5a82-1638-40f6-9d80-a43e516acef5")
+	)
+	(no_connect
+		(at 119.38 54.61)
+		(uuid "f2911622-35c2-441c-9701-8344410f88dd")
+	)
+	(no_connect
+		(at 73.66 110.49)
+		(uuid "f4c13f99-424b-4305-a57d-a8c58a1bfc18")
+	)
 	(wire
 		(pts
 			(xy 59.69 148.59) (xy 73.66 148.59)
@@ -4426,6 +4619,16 @@
 			(type default)
 		)
 		(uuid "1acfc7c4-818f-4b01-8ef6-4e3f63862303")
+	)
+	(wire
+		(pts
+			(xy 104.14 20.32) (xy 104.14 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f120445-8cfc-443f-9b91-f7be3dac4426")
 	)
 	(wire
 		(pts
@@ -4817,6 +5020,28 @@
 		)
 		(uuid "bf597fd9-1d9a-456a-acaf-76ba72e1e79a")
 	)
+	(hierarchical_label "DISPLAY_PWM"
+		(shape output)
+		(at 119.38 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c7feb58-64a8-4449-b787-768ae42e92dc")
+	)
+	(hierarchical_label "PWR_SW"
+		(shape input)
+		(at 119.38 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "111753cf-baaf-42eb-a8c5-abd53c6e7563")
+	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 119.38 67.31 0)
@@ -4828,6 +5053,347 @@
 		)
 		(uuid "12d0b723-aaf6-4474-a28e-0a33ed3496c4")
 	)
+	(hierarchical_label "VOL_POT"
+		(shape input)
+		(at 119.38 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1945cf61-eaf9-49a0-a9a4-2940039a6fdc")
+	)
+	(hierarchical_label "RP2350_SCK"
+		(shape output)
+		(at 119.38 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b5b029d-a62a-4179-8859-330c4c1a22aa")
+	)
+	(hierarchical_label "SQUELCH_BTN"
+		(shape input)
+		(at 119.38 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e44af8e-c300-408c-983f-19a3b1338fd6")
+	)
+	(hierarchical_label "ROTARY_ENCODER_A"
+		(shape input)
+		(at 73.66 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21f211ce-3d52-40c8-94d9-2284a7be4011")
+	)
+	(hierarchical_label "RP2350_MISO"
+		(shape output)
+		(at 119.38 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "226a5735-9b18-4696-b8c9-5f07bbe4cdb3")
+	)
+	(hierarchical_label "FUNCTION_BTN"
+		(shape input)
+		(at 119.38 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d6438b0-9310-47f9-92e7-45e3c3c5cee1")
+	)
+	(hierarchical_label "DISPLAY_RS"
+		(shape output)
+		(at 119.38 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3084d991-9d3a-4366-b8cf-024030db4fc0")
+	)
+	(hierarchical_label "DISPLAY_SDA"
+		(shape output)
+		(at 119.38 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "332b445d-8098-40af-ac97-e51367622d16")
+	)
+	(hierarchical_label "CHARGER_INT"
+		(shape output)
+		(at 73.66 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37ccdb51-2c4f-4663-b5db-4527b4f62a9e")
+	)
+	(hierarchical_label "DISPLAY_CS"
+		(shape output)
+		(at 119.38 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38193b59-ace6-4dac-b4bd-c2f5efb4a995")
+	)
+	(hierarchical_label "TX_MIXER_ENABLE"
+		(shape output)
+		(at 73.66 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3dcbfaeb-4452-440b-9fa4-44f588e3c32e")
+	)
+	(hierarchical_label "DISPLAY_RESET"
+		(shape output)
+		(at 119.38 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e86c42b-a116-4608-8652-a37e1933adcc")
+	)
+	(hierarchical_label "RX_IF_MIXER1_2M_EN"
+		(shape output)
+		(at 119.38 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f6c8101-30bc-48ab-80e9-2068168430c7")
+	)
+	(hierarchical_label "CODEC_NRST"
+		(shape output)
+		(at 119.38 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40edcfbb-508f-4367-83a0-5b8bd18e6844")
+	)
+	(hierarchical_label "KEYPAD_COL3"
+		(shape bidirectional)
+		(at 73.66 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46c67337-679a-4e95-9ba7-300faa3b76a1")
+	)
+	(hierarchical_label "TX_BAND_SWITCH1"
+		(shape output)
+		(at 73.66 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48650fb4-82aa-483c-8eb3-28de576e312d")
+	)
+	(hierarchical_label "TX_FINALS_BIAS"
+		(shape output)
+		(at 119.38 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c20c747-6a56-432d-9255-30ed7836bbcf")
+	)
+	(hierarchical_label "TR_SWITCH"
+		(shape output)
+		(at 119.38 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "500b1672-9295-4b91-a1e5-273cfafe6050")
+	)
+	(hierarchical_label "TX_DRIVER_BIAS"
+		(shape output)
+		(at 119.38 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54904183-3edb-48d6-8934-edd4d3c2f1a9")
+	)
+	(hierarchical_label "CODEC_MOSI"
+		(shape output)
+		(at 119.38 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "566ea1d8-14fb-45c4-bc7e-2bf9389a74c2")
+	)
+	(hierarchical_label "RP2350_CS"
+		(shape output)
+		(at 119.38 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d2e4964-88fb-447c-bd87-1e4cb26788e5")
+	)
+	(hierarchical_label "RP2350_MOSI"
+		(shape output)
+		(at 119.38 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62a7e18d-e137-4fa8-b9be-ae7ab2bc3fe2")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape bidirectional)
+		(at 119.38 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68b6202f-5adb-4606-acf3-0066310449a6")
+	)
+	(hierarchical_label "KEYPAD_COL2"
+		(shape bidirectional)
+		(at 73.66 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a04e595-3827-4d7f-9edb-f34069376b8e")
+	)
+	(hierarchical_label "SAI_MCLK"
+		(shape output)
+		(at 73.66 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ab6a5f9-927a-4f2f-bfea-38d3e7792452")
+	)
+	(hierarchical_label "KEYPAD_ROW2"
+		(shape bidirectional)
+		(at 73.66 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e55645b-551f-40ed-8ab6-6a064c09dd02")
+	)
+	(hierarchical_label "TX_BAND_SWITCH2"
+		(shape output)
+		(at 73.66 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7099616c-3970-44d7-af77-378d80b38b3c")
+	)
+	(hierarchical_label "DISPLAY_SCK"
+		(shape output)
+		(at 119.38 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70ccd9bc-1711-4853-883a-60c96802fc14")
+	)
+	(hierarchical_label "DISPLAY_ENABLE"
+		(shape output)
+		(at 119.38 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "785236d5-5e98-4e2e-8b61-11367e298baf")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape output)
+		(at 198.12 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7cb012c7-d8c2-472b-8669-357d6faf85b4")
+	)
+	(hierarchical_label "SAI_WCLK"
+		(shape output)
+		(at 73.66 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f53ef4d-2419-4ec9-ab95-36f5d29843d3")
+	)
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
 		(at 119.38 69.85 0)
@@ -4838,6 +5404,270 @@
 			(justify left)
 		)
 		(uuid "852df8e8-ec19-40cf-9f5a-ae2992b467aa")
+	)
+	(hierarchical_label "RX_IF_MIXER2_2M_PWDN"
+		(shape output)
+		(at 119.38 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85615cda-55af-4431-9f7e-4640e92b2f41")
+	)
+	(hierarchical_label "PTT_BTN"
+		(shape input)
+		(at 119.38 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85858b4d-d0e6-4302-92b7-ba4225c0b196")
+	)
+	(hierarchical_label "TX_FDA_ENABLE"
+		(shape output)
+		(at 73.66 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c637a45-12c6-42b1-ae48-0afa9ab222bf")
+	)
+	(hierarchical_label "RX_IN_70CM"
+		(shape input)
+		(at 119.38 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "911aedc3-7229-408c-a24f-32d746388a84")
+	)
+	(hierarchical_label "CODEC_MISO"
+		(shape input)
+		(at 119.38 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "936b72a1-8fdf-4962-9c73-9a4b93fa1074")
+	)
+	(hierarchical_label "RX_IF_MIXER2_70CM_PWDN"
+		(shape output)
+		(at 119.38 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98b22a95-3254-4382-9dd7-fb4034d0b723")
+	)
+	(hierarchical_label "TX_LPF_SWITCH2"
+		(shape output)
+		(at 119.38 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e12f897-a334-4cfe-b73a-a53ab675f31f")
+	)
+	(hierarchical_label "ROTARY_ENCODER_B"
+		(shape input)
+		(at 73.66 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0bf3bbe-32f9-4e24-aee4-60651bc58ab3")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape output)
+		(at 119.38 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6569084-5244-4b38-925e-86d6bf336122")
+	)
+	(hierarchical_label "KEYPAD_ROW4"
+		(shape bidirectional)
+		(at 73.66 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9acf504-9b15-420a-8af1-a41bdf4b4e29")
+	)
+	(hierarchical_label "RX_IN_2M"
+		(shape input)
+		(at 119.38 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aad8d184-0605-499d-8aa6-b688a7ade122")
+	)
+	(hierarchical_label "CODEC_SCK"
+		(shape output)
+		(at 73.66 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b17562d1-a069-4410-8c7a-47577b16bf96")
+	)
+	(hierarchical_label "ROTARY_ENCODER_BTN"
+		(shape input)
+		(at 73.66 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b768b653-7ccd-47d5-9f62-817fac606b0d")
+	)
+	(hierarchical_label "KEYPAD_ROW1"
+		(shape bidirectional)
+		(at 73.66 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba6cb4e3-7323-4340-b66b-f5ac839aa65b")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape bidirectional)
+		(at 198.12 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "badf5825-170e-49c5-93a4-f1cb35706b9a")
+	)
+	(hierarchical_label "SAI_DIN"
+		(shape input)
+		(at 73.66 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd384f47-02f5-4e68-a38b-909bbc2c07ca")
+	)
+	(hierarchical_label "CODEC_CS"
+		(shape output)
+		(at 119.38 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c21f202e-9aa0-49d2-b8fa-a49253bb9dfe")
+	)
+	(hierarchical_label "KEYPAD_ROW5"
+		(shape bidirectional)
+		(at 73.66 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c291c26c-73e6-43e3-b56f-f63af0820e24")
+	)
+	(hierarchical_label "TX_LPF_SWITCH1"
+		(shape output)
+		(at 119.38 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "caea52f8-e486-4c17-a454-86280daf4209")
+	)
+	(hierarchical_label "KEYPAD_ROW3"
+		(shape bidirectional)
+		(at 73.66 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d10b4092-eb0b-4c97-83a0-c0cc5bc5a28d")
+	)
+	(hierarchical_label "KEYPAD_COL1"
+		(shape bidirectional)
+		(at 73.66 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd5877ae-9070-4d04-ad2e-c686e6d9d18b")
+	)
+	(hierarchical_label "SAI_DOUT"
+		(shape output)
+		(at 73.66 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd9b4f3f-fcf5-4170-ba23-c31ae19a4a0e")
+	)
+	(hierarchical_label "RX_IF_MIXER1_70CM_EN"
+		(shape output)
+		(at 119.38 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e839a6dd-134a-4598-9509-25dd1d038ae2")
+	)
+	(hierarchical_label "SAI_BCLK"
+		(shape output)
+		(at 73.66 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb37a12e-aa2b-4075-9cac-910e2ab49d87")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5110,7 +5940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 42.8752 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5190,7 +6020,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 107.95 30.988 90)
 			(hide yes)
 			(show_name no)
@@ -5349,7 +6179,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 212.09 77.7748 0)
 			(hide yes)
 			(show_name no)
@@ -5431,7 +6261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 74.6252 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5513,7 +6343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 66.802 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -6123,6 +6953,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 104.14 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "324c30f5-08ef-4825-ba15-b105346b7478")
+		(property "Reference" "#FLG07"
+			(at 104.14 18.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 104.14 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 104.14 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f6fd0f7-54d0-4bd4-a935-1fb0da02dfcb")
+		)
+		(instances
+			(project "ht_better"
+				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349/2e1dadd9-868e-470b-aabb-487e14f88aa5"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030")
 		(at 182.88 38.1 0)
 		(unit 1)
@@ -6640,7 +7548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 212.09 100.6348 0)
 			(hide yes)
 			(show_name no)
@@ -6720,7 +7628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 212.09 89.2048 0)
 			(hide yes)
 			(show_name no)
@@ -6769,6 +7677,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 190.5 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a1c722e-cabc-49e4-b15c-e463f931caeb")
+		(property "Reference" "#PWR0542"
+			(at 194.31 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 186.69 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 190.5 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9099fb49-b456-4564-b1ca-10150dcaecf8")
+		)
+		(instances
+			(project "ht_better"
+				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349/2e1dadd9-868e-470b-aabb-487e14f88aa5"
+					(reference "#PWR0542")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 97.79 25.4 90)
 		(unit 1)
@@ -6800,7 +7787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.6 24.4348 0)
 			(hide yes)
 			(show_name no)
@@ -6922,6 +7909,86 @@
 			(project "ht_better"
 				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349/2e1dadd9-868e-470b-aabb-487e14f88aa5"
 					(reference "#PWR0458")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 194.31 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69bed4f0-99fc-4e82-a752-236e1810daa1")
+		(property "Reference" "R121"
+			(at 194.31 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 194.31 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 194.31 119.888 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 194.31 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "13365a6c-ba08-441e-9f86-d4c13f506776")
+		)
+		(pin "1"
+			(uuid "e61ecfc7-808b-48b4-8af7-fab8f799d429")
+		)
+		(instances
+			(project "ht_better"
+				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349/2e1dadd9-868e-470b-aabb-487e14f88aa5"
+					(reference "R121")
 					(unit 1)
 				)
 			)
@@ -7118,7 +8185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 16.2052 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7513,7 +8580,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.1952 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7593,7 +8660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 212.09 66.3448 0)
 			(hide yes)
 			(show_name no)
@@ -7673,7 +8740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.69 89.2048 0)
 			(hide yes)
 			(show_name no)
@@ -7753,7 +8820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.69 77.7748 0)
 			(hide yes)
 			(show_name no)
@@ -7833,7 +8900,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.04 30.7848 0)
 			(hide yes)
 			(show_name no)
@@ -7991,7 +9058,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 191.77 26.9748 0)
 			(hide yes)
 			(show_name no)
@@ -8152,7 +9219,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 60.6552 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8468,7 +9535,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 44.45 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8924,7 +9991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 24.4348 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9083,7 +10150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 186.69 66.3448 0)
 			(hide yes)
 			(show_name no)
@@ -9205,6 +10272,165 @@
 			(project "ht_better"
 				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349/2e1dadd9-868e-470b-aabb-487e14f88aa5"
 					(reference "#PWR0474")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 190.5 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea6fa981-2faa-4504-a26b-f5716807482f")
+		(property "Reference" "#PWR0541"
+			(at 194.31 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 186.69 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 190.5 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc820ec6-bf11-40c4-8e22-e9f7b9ca1e90")
+		)
+		(instances
+			(project "ht_better"
+				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349/2e1dadd9-868e-470b-aabb-487e14f88aa5"
+					(reference "#PWR0541")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 194.31 120.65 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed439278-9d2e-4aaf-ba00-f3918179a404")
+		(property "Reference" "R122"
+			(at 194.31 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 194.31 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 194.31 118.872 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 194.31 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd948a11-0c44-44c8-baf8-cdcee1ba7626")
+		)
+		(pin "1"
+			(uuid "f87875e7-1de5-41eb-9f66-b701b758a7b3")
+		)
+		(instances
+			(project "ht_better"
+				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349/2e1dadd9-868e-470b-aabb-487e14f88aa5"
+					(reference "R122")
 					(unit 1)
 				)
 			)
@@ -9499,7 +10725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 36.5252 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9581,7 +10807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 45.212 40.64 90)
 			(hide yes)
 			(show_name no)

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260306)
+	(version 20260326)
 	(generator "eeschema")
-	(generator_version "10.0")
+	(generator_version "10.99")
 	(uuid "8b64a0db-a702-4698-bae6-926d24815eb8")
 	(paper "A4")
 	(lib_symbols
@@ -1330,7 +1330,7 @@
 		)
 		(uuid "fedc7fc5-0ff6-4cf6-a2b8-4b078c8e5dcd")
 	)
-	(label "GND"
+	(label "GNDL"
 		(at 50.8 76.2 180)
 		(effects
 			(font
@@ -1340,7 +1340,7 @@
 		)
 		(uuid "23c453c0-53b5-4032-8229-8eb3af2650b2")
 	)
-	(label "GND"
+	(label "GNDL"
 		(at 92.71 31.75 180)
 		(effects
 			(font
@@ -1350,7 +1350,7 @@
 		)
 		(uuid "96b1f110-d225-45f0-be09-b3fdec0e79bc")
 	)
-	(label "GND"
+	(label "GNDL"
 		(at 92.71 59.69 180)
 		(effects
 			(font
@@ -1360,7 +1360,7 @@
 		)
 		(uuid "a3acc460-86e2-448b-8711-c622bb6ab1eb")
 	)
-	(label "GND"
+	(label "GNDL"
 		(at 92.71 39.37 180)
 		(effects
 			(font
@@ -1482,7 +1482,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.9752 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1561,7 +1561,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 74.93 35.052 90)
 			(hide yes)
 			(show_name no)
@@ -1957,7 +1957,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 68.2752 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2662,7 +2662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 32.512 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -2743,7 +2743,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 41.402 85.09 90)
 			(hide yes)
 			(show_name no)

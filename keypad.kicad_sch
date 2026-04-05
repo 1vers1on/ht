@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260306)
+	(version 20260326)
 	(generator "eeschema")
-	(generator_version "10.0")
+	(generator_version "10.99")
 	(uuid "b7c93ef0-058c-46f4-8e41-f66ceed27a2f")
 	(paper "A4")
 	(lib_symbols
@@ -1126,7 +1126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 59.69 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -1468,7 +1468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 82.55 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -1650,7 +1650,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 82.55 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -1752,7 +1752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 36.83 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -1934,7 +1934,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 82.55 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2116,7 +2116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 36.83 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2218,7 +2218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 36.83 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2320,7 +2320,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 59.69 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2502,7 +2502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 59.69 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2684,7 +2684,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 82.55 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3026,7 +3026,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 59.69 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3208,7 +3208,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 82.55 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -3390,7 +3390,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 36.83 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3492,7 +3492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 59.69 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3594,7 +3594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-523"
 			(at 36.83 39.37 0)
 			(hide yes)
 			(show_name no)

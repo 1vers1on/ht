@@ -60,6 +60,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
+        "assertion_failure": "error",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -120,6 +121,7 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
+        "via_diameter": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -244,7 +246,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|850900|241300|883686c4-c758-42dc-ab90-573a9fa78ace|00000000-0000-0000-0000-000000000000|/f8b7476c-07f9-4593-b1ba-2c61d2a9e349/3330940c-c5b7-4933-9d44-717ccf4c7c56|/f8b7476c-07f9-4593-b1ba-2c61d2a9e349/3330940c-c5b7-4933-9d44-717ccf4c7c56|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -453,6 +460,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -505,6 +513,9 @@
     "netclass_patterns": []
   },
   "pcbnew": {
+    "find_by_properties": {
+      "recent_queries": []
+    },
     "last_paths": {
       "idf": "",
       "netlist": "",
@@ -632,7 +643,7 @@
         "uuid": "f8b7476c-07f9-4593-b1ba-2c61d2a9e349"
       }
     ],
-    "used_designators": "#PWR538-540,R119-120,D8,C360-363",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -845,10 +856,6 @@
       "TX LO"
     ],
     [
-      "c943dd87-b1c1-4b44-9ef7-e8595ffc8770",
-      "2v5 Buffer"
-    ],
-    [
       "695d0f4d-b677-43e0-b993-a892a18a69db",
       "Battery Charger"
     ],
@@ -895,6 +902,14 @@
     [
       "0fe0d94e-1534-412e-9981-f545fe3eef7f",
       "Class D Speaker Amp"
+    ],
+    [
+      "408f802b-2f25-478b-8c8a-8cc0e99115ee",
+      "RP2350 Slave"
+    ],
+    [
+      "5bb1dfcc-9370-4bd2-bd14-a97a6f70a799",
+      "TX Bias Buffer"
     ]
   ],
   "text_variables": {},

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260306)
+	(version 20260326)
 	(generator "eeschema")
-	(generator_version "10.0")
+	(generator_version "10.99")
 	(uuid "6ffeee5e-95cc-47f3-9f98-37f4dabe11dc")
 	(paper "A4")
 	(lib_symbols
@@ -1262,7 +1262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 41.6052 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -1422,7 +1422,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 44.45 27.178 90)
 			(hide yes)
 			(show_name no)
@@ -1817,7 +1817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.9752 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2057,7 +2057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 68.2752 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2219,7 +2219,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 81.28 40.9448 0)
 			(hide yes)
 			(show_name no)
@@ -2459,7 +2459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 48.26 34.5948 0)
 			(hide yes)
 			(show_name no)
@@ -2704,7 +2704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 28.9052 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2785,7 +2785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 94.9452 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -2867,7 +2867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.2452 49.53 0)
 			(hide yes)
 			(show_name no)

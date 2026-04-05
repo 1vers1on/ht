@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20260306)
+	(version 20260326)
 	(generator "eeschema")
-	(generator_version "10.0")
+	(generator_version "10.99")
 	(uuid "0a07ac54-6ea5-42d3-9533-59a3ca3a86aa")
 	(paper "A4")
 	(lib_symbols)
@@ -34,6 +34,16 @@
 			(type default)
 		)
 		(uuid "0850a058-8b42-4092-8ea8-852d08a427c9")
+	)
+	(wire
+		(pts
+			(xy 57.15 22.86) (xy 59.69 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0f577d-087b-4fa9-b34d-5e373f39a0a2")
 	)
 	(wire
 		(pts
@@ -164,16 +174,6 @@
 			(type default)
 		)
 		(uuid "353efb21-c7fb-45fa-a716-31e3238af52e")
-	)
-	(wire
-		(pts
-			(xy 88.9 31.75) (xy 90.17 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40b9e4fc-1aa7-4cac-9973-b9ffca5ada77")
 	)
 	(wire
 		(pts
@@ -467,6 +467,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 24.13) (xy 90.17 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cafdec37-736e-4e56-a01a-363f4911ad69")
+	)
+	(wire
+		(pts
 			(xy 88.9 120.65) (xy 90.17 120.65)
 		)
 		(stroke
@@ -673,6 +683,17 @@
 		)
 		(uuid "3ab2c15b-eedc-4388-8164-39247e7f0999")
 	)
+	(hierarchical_label "1V25"
+		(shape input)
+		(at 88.9 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3abf5880-e911-4f34-b90a-d1b30e31e5bf")
+	)
 	(hierarchical_label "TX_FDA_DISABLE"
 		(shape input)
 		(at 124.46 120.65 0)
@@ -727,17 +748,6 @@
 			(justify right)
 		)
 		(uuid "5352c8b1-859e-4e98-b66f-02e57b7736fe")
-	)
-	(hierarchical_label "2V5"
-		(shape input)
-		(at 88.9 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "57b3ef56-d124-4c5c-812c-372ce24482c2")
 	)
 	(hierarchical_label "RX_2M_LO_CE"
 		(shape input)
@@ -991,6 +1001,17 @@
 			(justify left)
 		)
 		(uuid "daf13404-efaf-4eb9-9854-7b1539d019cd")
+	)
+	(hierarchical_label "TR_SWITCH"
+		(shape input)
+		(at 57.15 22.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc9c5560-b7ea-4a8b-9a54-b14358d6bef5")
 	)
 	(hierarchical_label "TX_I_IN"
 		(shape input)
@@ -1650,16 +1671,6 @@
 				(justify left)
 			)
 		)
-		(pin "2V5" input
-			(at 90.17 31.75 180)
-			(uuid "0998fb90-5ef9-463d-ac2e-e35027920b2c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "70CM_IF1_MIXER_EN" input
 			(at 90.17 83.82 180)
 			(uuid "a03563b1-88b9-49d2-98b2-14d161eae0d6")
@@ -1853,6 +1864,16 @@
 		(pin "10MHZ_REF" output
 			(at 90.17 78.74 180)
 			(uuid "e83f5c80-2ef3-465c-8fac-241bdf69f178")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V25" input
+			(at 90.17 24.13 180)
+			(uuid "0aed3fb4-84f9-441d-b86a-bb1dc0cb3cda")
 			(effects
 				(font
 					(size 1.27 1.27)
