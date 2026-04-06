@@ -1293,7 +1293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW5_PEC09-2320F-S0015_BRN"
 			(at 55.88 31.496 0)
 			(hide yes)
 			(show_name no)

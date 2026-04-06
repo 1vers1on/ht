@@ -2541,7 +2541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:POWERFLAT_5X5X1P27_STM"
 			(at 58.42 33.02 0)
 			(hide yes)
 			(show_name no)
