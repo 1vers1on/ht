@@ -6046,7 +6046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERF8-020-05.0-L-DV-L-K-TR:SAMTEC_ERF8-020-05.0-L-DV-L-K-TR"
+		(property "Footprint" "footprints:SAMTEC_ERF8-020-05.0-L-DV-L-K-TR"
 			(at 168.91 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -6885,7 +6885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 254.762 90)
 			(hide yes)
 			(show_name no)
@@ -7710,7 +7710,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 255.778 90)
 			(hide yes)
 			(show_name no)
@@ -8421,7 +8421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 236.728 90)
 			(hide yes)
 			(show_name no)
@@ -8579,7 +8579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ERM8-020-XX.X-X-DV-L-XX:SAMTEC_ERM8-020-XX.X-X-DV-L-XX"
+		(property "Footprint" "footprints:SAMTEC_ERM8-020-XX.X-X-DV-L-XX"
 			(at 236.22 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -8810,7 +8810,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 217.678 90)
 			(hide yes)
 			(show_name no)
@@ -9048,7 +9048,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 235.712 90)
 			(hide yes)
 			(show_name no)
@@ -10631,7 +10631,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 216.662 90)
 			(hide yes)
 			(show_name no)
