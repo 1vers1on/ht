@@ -956,7 +956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 39.37 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -1198,7 +1198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 53.34 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -1280,7 +1280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 69.85 25.4 0)
 			(hide yes)
 			(show_name no)

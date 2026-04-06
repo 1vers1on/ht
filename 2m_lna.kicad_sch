@@ -1455,7 +1455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 44.45 36.83 0)
 			(hide yes)
 			(show_name no)

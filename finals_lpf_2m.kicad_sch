@@ -904,7 +904,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:WE-CAIR_4248"
 			(at 68.58 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -1222,7 +1222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 55.88 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -1380,7 +1380,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:WE-CAIR_4248"
 			(at 43.18 34.29 0)
 			(hide yes)
 			(show_name no)

@@ -966,7 +966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 91.44 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -1046,7 +1046,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 68.58 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -1228,7 +1228,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 68.58 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -1308,7 +1308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -1388,7 +1388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 68.58 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -1570,7 +1570,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 91.44 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -1854,7 +1854,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 68.58 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2036,7 +2036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 45.72 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -2422,7 +2422,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 45.72 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2604,7 +2604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 45.72 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -2786,7 +2786,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 91.44 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -2866,7 +2866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 91.44 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -2946,7 +2946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 45.72 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3128,7 +3128,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 91.44 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3310,7 +3310,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 68.58 39.37 0)
 			(hide yes)
 			(show_name no)

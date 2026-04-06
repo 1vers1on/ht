@@ -160,217 +160,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Microphone_Condenser"
-			(pin_names
-				(offset 0.0254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "MK"
-				(at -3.302 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Microphone_Condenser"
-				(at -3.302 -0.635 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Condenser microphone"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "capacitance condenser microphone"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Microphone_Condenser_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 3.81) (xy 0.762 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 4.064) (xy 0.508 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.016 0.762)
-					(end -1.016 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 -0.254)
-					(end -1.016 -0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Microphone_Condenser_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -494,6 +283,127 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:B4013AM423-092"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "MIC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B4013AM423-092"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:MIC-SMD_BD4.0_B4013AM423-093-1"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C5160218"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "B4013AM423-092_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -5.08 90)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -5.08 90)
+					(length 5.08)
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1446,28 +1356,22 @@
 		)
 	)
 	(junction
+		(at 116.84 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e771c36-5d65-4e02-983e-5dc5f708a063")
+	)
+	(junction
 		(at 91.44 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cfb2f6c-11a1-4ea9-9589-a4e1a4205f04")
 	)
 	(junction
-		(at 116.84 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56ebbac5-5763-4333-bda3-134d3b4e022c")
-	)
-	(junction
 		(at 27.94 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a52c4d6-faab-4ebe-aead-8f75cb0a90da")
-	)
-	(junction
-		(at 116.84 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cd59fc1-de7b-49b4-a775-5e041e272dda")
 	)
 	(junction
 		(at 50.8 78.74)
@@ -1480,6 +1384,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5bd65d8-5566-4e8d-9a16-1d4ba624eb01")
+	)
+	(junction
+		(at 115.57 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac493f3f-5c6d-477c-bc70-3cb3d13ff4cc")
 	)
 	(junction
 		(at 26.67 71.12)
@@ -1515,7 +1425,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 24.13) (xy 116.84 24.13)
+			(xy 99.06 24.13) (xy 115.57 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1625,6 +1535,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 24.13) (xy 116.84 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c39b1c8-1b94-40e7-ba97-0cd743485ab1")
+	)
+	(wire
+		(pts
 			(xy 31.75 107.95) (xy 31.75 76.2)
 		)
 		(stroke
@@ -1642,6 +1562,16 @@
 			(type default)
 		)
 		(uuid "6eb3b063-41cf-4006-9892-80191311c98e")
+	)
+	(wire
+		(pts
+			(xy 115.57 27.94) (xy 115.57 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc113ba-8267-45b2-810b-e19b0551551f")
 	)
 	(wire
 		(pts
@@ -1672,6 +1602,16 @@
 			(type default)
 		)
 		(uuid "8f4c06bf-742f-498b-967b-c760fe4c6bf9")
+	)
+	(wire
+		(pts
+			(xy 116.84 34.29) (xy 116.84 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9070e59d-7df9-4c9d-b587-fed6098b7b65")
 	)
 	(wire
 		(pts
@@ -1755,6 +1695,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 27.94) (xy 115.57 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d466eec6-f433-4264-84cb-ab71f8841607")
+	)
+	(wire
+		(pts
 			(xy 27.94 71.12) (xy 50.8 71.12)
 		)
 		(stroke
@@ -1772,6 +1722,16 @@
 			(type default)
 		)
 		(uuid "f71ed686-a9e6-4f81-9003-1b0f43a2ca6a")
+	)
+	(wire
+		(pts
+			(xy 116.84 33.02) (xy 129.54 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff85b221-241d-4522-a287-783b6e9dcfff")
 	)
 	(hierarchical_label "I2S_MCLK"
 		(shape input)
@@ -3556,88 +3516,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Microphone_Condenser")
-		(at 116.84 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a544f0fb-b1ca-48d8-801b-66e0ea3bf0c5")
-		(property "Reference" "MK1"
-			(at 120.65 27.2414 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Microphone_Condenser"
-			(at 120.65 29.7814 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 26.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 26.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Condenser microphone"
-			(at 116.84 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "71a791cc-9e95-41e2-9582-999808b4dfb4")
-		)
-		(pin "2"
-			(uuid "3a341d57-ce12-41f4-91d7-31917593e1b3")
-		)
-		(instances
-			(project "ht_better"
-				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349/7d41882d-0176-419a-87e2-f78eee2f944c/34a9ad3c-055c-4b99-a1d1-7126d401cb12"
-					(reference "MK1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 104.14 67.31 180)
 		(unit 1)
@@ -3714,6 +3592,99 @@
 			(project "ht_better"
 				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349/7d41882d-0176-419a-87e2-f78eee2f944c/34a9ad3c-055c-4b99-a1d1-7126d401cb12"
 					(reference "C348")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:B4013AM423-092")
+		(at 134.62 30.48 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c017b8c3-1d38-4fe0-ba1f-7d7a117e83b5")
+		(property "Reference" "MIC1"
+			(at 143.51 29.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B4013AM423-092"
+			(at 143.51 31.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:MIC-SMD_BD4.0_B4013AM423-093-1"
+			(at 121.92 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5160218"
+			(at 119.38 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55f30c84-0bb6-43f2-8be5-8c855f72791a")
+		)
+		(pin "2"
+			(uuid "c4223e0e-18a1-4f0d-b80f-7a05be86bd53")
+		)
+		(instances
+			(project "ht_better"
+				(path "/f8b7476c-07f9-4593-b1ba-2c61d2a9e349/7d41882d-0176-419a-87e2-f78eee2f944c/34a9ad3c-055c-4b99-a1d1-7126d401cb12"
+					(reference "MIC1")
 					(unit 1)
 				)
 			)
